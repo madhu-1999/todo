@@ -1,0 +1,30 @@
+.circle {
+    height: 120px;
+    width: 120px;
+    background-color: #849e00;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .counter-container{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    border: 1px solid #fff;
+    margin-bottom: 60px;
+    padding: 20px;
+    border-radius: 25px;
+  }
+
+  p {
+    margin:20px;
+    font-size: 50px;
+    color: beige;
+  }
+
+  span p{
+    font-size: 60px;
+  }

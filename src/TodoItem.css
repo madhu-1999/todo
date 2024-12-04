@@ -1,0 +1,70 @@
+.item-container {
+    color: white;
+    display: flex;
+    font-size: 1.5em;
+    justify-content: flex-start;
+    align-items: center;
+    --flex-wrap: wrap;
+    border: 1px solid lightgray;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 10px;
+}
+
+.item-container > label {
+    flex-grow: 2;
+    overflow: auto;
+    white-space: text-wrap;
+    max-width: 300px;
+}
+.item-container > input[type="checkbox"],
+.item-container > label
+{
+   margin: 10px;
+}
+
+.item-container > button {
+    border: 1px solid lightgray;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: beige;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    appearance: none;
+    background-color: #28282B;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    cursor: pointer;
+    position: relative;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+}
+
+input[type="checkbox"]:checked::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 6px;
+    height: 12px;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.complete{
+    opacity: 0.5;
+    font-style: italic;
+}

@@ -1,0 +1,25 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.input, .submit{
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.input {
+    border: 1px solid lightgray;
+    width: 350px;
+}
+
+.submit {
+    background-color: #5ce65c;
+    border: 1px solid transparent;
+}
