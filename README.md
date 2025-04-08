@@ -1,8 +1,23 @@
-# React + Vite
+# ToDo App
+A simple and intuitive ToDo List application built with HTML, CSS, and React. This project helps users manage their daily tasks efficiently by allowing them to add, mark, and delete tasks with ease.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Features
++ Add new tasks
++ Mark tasks as completed
++ Delete tasks from the list
++ Retains task state during session (using local storage)
++ Clean and responsive user interface
 
-Currently, two official plugins are available:
+## Technologies Used
++ HTML5
++ CSS3
++ React.js
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Run
+Clone this repository:
+```bash
+
+git clone https://github.com/madhu-1999/todo.git
+
+```
+Open the `index.html` file in your preferred browser.
